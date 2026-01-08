@@ -63,4 +63,11 @@ Take active performance metrics and use them to make decisions.
 
 <br>
 
-## Least 
+## Least Time 
+Check the server with the smallest latency and use that server 
+
+### Pros: 
+- Very accurate 
+
+### Cons: 
+- Lots of over head 

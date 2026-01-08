@@ -20,10 +20,19 @@ Capacity: https://newsletter.systemdesign.one/i/174962283/capacity-planning
 
 
 ### Load Balancer 
+- Could use round robin or least connections, doesn't particularly matter
+- Perform routine health checks 
+- In general, helpful for album releases
 
 
 ### API Layer 
+-  Stateless servers that handle business logic, auth, data access, etc... 
+-  Generate signed URLs for audio access 
+
 
 ### SQL DB 
+- Stores metadata 
+
 
 ### Blob Storage 
+- See more at [BlobStorage.md](../BlobStorage/BlobStorage.md)
